@@ -1,8 +1,8 @@
-@import url("https://fonts.googleapis.com/css?family=DM+Sans:400,500|Jost:400,500,600&display=swap");  
-  * {  
-       box-sizing: border-box;  
- }  
-  #founders {  
+@import url("https://fonts.googleapis.com/css?family=DM+Sans:400,500|Jost:400,500,600&display=swap");
+* {  
+      box-sizing: border-box;  
+}
+#founders {  
        color: #2b2c48;  
        font-family: "Jost", sans-serif;  
        background-image: url("assets/card-bg.jpeg");  
@@ -13,8 +13,8 @@
        min-height: 100vh;  
        display: flex;  
        flex-wrap: wrap;  
- }  
-  .card {  
+ }
+.card {  
        max-width: 340px;  
        margin: auto;  
        overflow-y: auto;  
@@ -27,6 +27,7 @@
        flex-direction: column;  
        border-radius: 10px;  
        box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.2);
+       opacity: .9;
  }  
   .card {  
        height: 400px;  
@@ -174,4 +175,4 @@
  }  
   .card-social a:last-child {  
        margin-right: 0;  
- } 
+ }
